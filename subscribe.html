@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>
+        Input elements
+    </title>
+    <style>
+        h1 {
+            background-color: crimson;
+            font-style: italic;
+            font-size: 20px;
+            width: 350px;
+            text-align: center;
+
+        }
+
+        body {
+            background-color: black;
+            padding: 150px 550px;
+        }
+
+        #outer {
+            background-color: white;
+            padding: 20px;
+        }
+
+        #inner {
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .line {
+            border-top: 2px solid black;
+
+        }
+
+        .first {
+            display: inline;
+
+        }
+
+        .second {
+            display: inline-block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id='outer'>
+        <div id='inner'>
+
+            <h1>Yes! I want to subscribe Mag-O-Zine</h1><br />
+
+            <span style="padding-left: 50px;font-style: oblique;font-weight: bolder;">joe&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; schmegeggie </span>
+            <div>
+
+                <div class="line first" style="padding-right:80px;">First Name</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="line second" style="padding-right:80px;">Last Name</div><br /><br />
+                <span style="padding-left: 50px;font-style: oblique; font-weight: bolder;">101 Washinton Street</span>
+                <div class="line" style="width: 80%;">Address</div><br />
+                <div style="font-style:oblique;font-weight: bolder;">Achmeiw &emsp;&emsp;&emsp; LA &emsp;&emsp;&emsp;99999 </div>
+                <div class="line first" style="padding-right:40px;">City</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="line second" style="padding-right:30px;">State</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="line second" style="padding-right:60px;">zip</div>
+
+                <div style="font-weight: bolder;">
+                    <label for="subscription">Subscribe for:</label>
+                    <input type="checkbox" id=1y name=subscription value=1year checked>
+                    <label for="1y">1 Year($19.95)</label>
+                    <input type="checkbox" id=2y name=subscription value=2year>
+                    <label for="2y">2 year($35.00)</label><br /><br />
+                </div>
+                <div style="font-weight: bolder;">
+                    <label for="czine">Send me more information about:</label><br />
+                    <input type="checkbox" id=czine name=czine value=computer-zine checked>
+                    <label for="czine">Computer-zine</label><br />
+                    <input type="checkbox" id=fzine name=fzine value=fishing-zine>
+                    <label for="fzine">Fishing-zine</label><br />
+                    <input type="checkbox" id=catzine name=catzine value=cat-o-zine checked>
+                    <label for="catzine">Cat-o-zine</label><br />
+                </div>
+
+
+            </div>
+        </div>
+</body>
+
+</html>
